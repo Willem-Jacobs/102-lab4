@@ -2,25 +2,36 @@
 <html>
   <head>
     <title>Port Machinery</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
-    <header>
-      <h1>Port Machinery</h1>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Cranes</li>
-          <li>RTGs</li>
-          <li>Strads</li>
-          <li>Forklifts</li>
-          <li>Other</li>
-          <li>About</li>
+    <header class="main-header">
+      <div>
+        <h1 class="main-header__brand">Port Machinery</h1>
+      </div>      
+      <nav class="main-nav">
+        <ul class="main-class__items">
+          <li class="main-nav__item">
+            <a href="">Home</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="">Cranes</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="">RTGs</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="">Strads</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="">Forklifts</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <img src="https://via.placeholder.com/1200x300" alt="image" />
+      <section class="main-section">
+        <img class="main-image" src="/images/main_rtg.jpg" alt="image" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -31,8 +42,8 @@
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </section>
-      <section>
-        <img src="https://via.placeholder.com/300x150" alt="image" />
+      <section class="display_change">
+        <img class="other_image" src="/images/GantryCrane.JPG" alt="image" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -43,8 +54,8 @@
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </section>
-      <section>
-        <img src="https://via.placeholder.com/300x150" alt="image" />
+      <section class="display_change">
+        <img class="other_image" src="/images/ReachStacker.JPG" alt="image" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -55,8 +66,12 @@
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </section>
-      <section>
-        <img src="https://via.placeholder.com/300x150" alt="image" />
+      <section class="display_change">
+        <img
+          class="other_image"
+          src="/images/StraddleCarrier.jpg"
+          alt="image"
+        />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -68,13 +83,20 @@
         </p>
       </section>
     </main>
-    <footer>
-        <ul>
-            <li>About</li>
-            <li>Copyright</li>
-            <li>Privacy</li>
-            <li>Contact</li>
+    <footer class="main_footer">
+      <nav>
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="">About</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="">Privacy</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="">Contact</a>
+          </li>
         </ul>
+      </nav>
     </footer>
   </body>
 </html>
