@@ -79,13 +79,13 @@ body {
 }
 
 .display_change {
-    background: #d5ffdc;
-    text-align: center;
-    padding: 16px;
-    margin: 8px;
-    display: inline-block;
-    width: 30%;
-    vertical-align: middle;
+  background: #d5ffdc;
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
 }
 
 .main_footer {
